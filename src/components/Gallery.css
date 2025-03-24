@@ -1,0 +1,14 @@
+#Gallery {
+    background: white;
+}
+
+.Gallery{
+    width: 500px;
+}
+
+/* responsive */
+@media (max-width: 500px) {
+    .Gallery{
+        width: 280px;
+    }
+}

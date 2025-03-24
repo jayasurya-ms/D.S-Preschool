@@ -1,0 +1,63 @@
+.slick-prev:before,
+.slick-next:before {
+  color: #7b1fa2; /* Custom arrow color */
+  
+}
+
+.slick-dots li button:before {
+  color: #7b1fa2; /* Custom dot color */
+  
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ffcc80; /* Active dot color */
+  
+}
+
+.btn{
+    background: linear-gradient(130deg, #d1cad1, #dcdadc, #b40c90, #4d11c5);
+    background-size: 400%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btnp{
+  width: 60%;
+}
+
+.btn:hover{
+    animation: gradient-flow 1s linear infinite;
+    transform: scale(1.05);
+ /* background-size: auto; */
+}
+@keyframes gradient-flow{
+      0%{
+        background-position: 0%;
+        color: white;
+      }
+      100%{
+        background-position: 100%;
+        color: white;
+      }
+}
+
+@media (max-width: 425px){
+  .btnp{
+    width: 80%;
+  }
+}
+
+.card {
+    transition: transform 0.2s ease-in-out; /* Smooth animation */
+    display: flex;
+    align-items: center;
+  }
+  
+  .card:hover {
+    transform: scale(1.1); /* Zoom in the card */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  
