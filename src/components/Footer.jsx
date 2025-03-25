@@ -34,7 +34,7 @@ function Footer() {
       </div>
       <div className="row m-0">
         <div className="col-sm-12 col-md-12 d-flex justify-content-center m-1 pt-4">
-          <p className="m-0">Copyright &copy; {new Date().getFullYear()} All rights reserved /p>
+          <p className="m-0">Copyright &copy; {new Date().getFullYear()} All rights reserved </p>
         </div>
       </div>
     </footer>

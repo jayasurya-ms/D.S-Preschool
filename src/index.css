@@ -1,0 +1,15 @@
+/* hero section */
+
+.heroimg{
+    border-radius: 50px;
+    height: 300px;
+    width: 100%;
+}
+
+/* responsive */
+@media (max-width: 500px) {
+    .heroimg{
+        border-radius: 20px;
+        height: 200px;
+    }
+}

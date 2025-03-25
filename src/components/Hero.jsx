@@ -4,9 +4,57 @@ import { motion } from "framer-motion";
 function HeroSection() {
   return (
     <section className="container-fluid p-0 m-0 row" id="home">
-      <motion.div animate={{ x: [-10, 20, -10] }} transition={{ duration: 4, repeat: Infinity }} className="col-md-5 col-sm-12 p-4 d-flex justify-content-center align-item-center"  >
-        <img src="src/Assets/heropic.jpg" alt="picture" className="h-100 w-75 img" style={{ borderRadius: "10%" }} />
-      </motion.div>
+      <div className="col-md-5 col-sm-12 p-5 d-flex justify-content-center align-item-center">
+        {/* <img src="src/Assets/heropic.jpg" alt="picture" className="h-100 w-75 img" style={{ borderRadius: "10%" }} /> */}
+        <motion.div animate={{ y: [-10, 20, -10] }} transition={{ duration: 4, repeat: Infinity }} className="h-100 w-100 mt-5">
+          <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+            <div className="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+
+
+
+
+            </div>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img src=" src\assets\hero1.png" className="d-block w-100 heroimg" alt="..." />
+              </div>
+              <div className="carousel-item">
+                <img src="src\assets\hero6.png" className="d-block w-100 heroimg" alt="..."/>
+              </div>
+              <div className="carousel-item">
+                <img src="src\assets\hero3.png " className="d-block w-100 heroimg" alt="..."/>
+              </div>
+              <div className="carousel-item">
+                <img src="src\assets\hero5.png " className="d-block w-100 heroimg" alt="..."/>
+              </div>
+              <div className="carousel-item">
+                <img src="src\assets\hero2.png " className="d-block w-100 heroimg" alt="..."/>
+              </div>
+              <div className="carousel-item">
+                <img src="src\assets\hero7.png " className="d-block w-100 heroimg" alt="..."/>
+              </div>
+              <div className="carousel-item">
+                <img src="src\assets\hero4.png " className="d-block w-100 heroimg" alt="..."/>
+              </div>
+            </div>
+            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Next</span>
+            </button>
+          </div>
+        </motion.div>
+      </div>
       <div
         className="col-lg-7 col-md-6 col-sm-12 text-lg-start text-center p-4"
         style={{
