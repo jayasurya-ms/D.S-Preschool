@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-function HeroSection() {
+function Hero() {
   return (
     <section className="container-fluid p-0 m-0 row" id="home">
       <div className="col-md-5 col-sm-12 p-5 d-flex justify-content-center align-item-center">
@@ -15,15 +15,10 @@ function HeroSection() {
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
-
-
-
-
-            </div>
+             </div>
             <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img src=" src\assets\hero1.png" className="d-block w-100 heroimg" alt="..." />
+            <div className="carousel-item active">
+                <img src="src\assets\hero2.png " className="d-block w-100 heroimg" alt="..."/>
               </div>
               <div className="carousel-item">
                 <img src="src\assets\hero6.png" className="d-block w-100 heroimg" alt="..."/>
@@ -33,9 +28,6 @@ function HeroSection() {
               </div>
               <div className="carousel-item">
                 <img src="src\assets\hero5.png " className="d-block w-100 heroimg" alt="..."/>
-              </div>
-              <div className="carousel-item">
-                <img src="src\assets\hero2.png " className="d-block w-100 heroimg" alt="..."/>
               </div>
               <div className="carousel-item">
                 <img src="src\assets\hero7.png " className="d-block w-100 heroimg" alt="..."/>
@@ -60,7 +52,7 @@ function HeroSection() {
         style={{
           backgroundColor: "#ffffff",
           borderRadius: "12px",
-          boxShadow: "0 4px 15px rgba(0, 0, 0, 0.1)",
+          boxShadow: "0 4px 15px rgba(0, 0, 0, 0.4)",
         }}
       >
         <h2 className="mb-4 text-primary fw-bold">
@@ -96,7 +88,7 @@ function HeroSection() {
             href="https://docs.google.com/forms/d/e/1FAIpQLScf6actMecVBa2hly2ztjmOHBaH9VzQ0Ee4c2-11ayaCgCoog/viewform?usp=sharing"
             className="btn btn-lg px-4 shadow-sm"
           >
-            Reach Us
+            Reach us
           </a>
         </div>
       </div>
@@ -106,4 +98,4 @@ function HeroSection() {
 
 const buttonStyle = { padding: "8px 16px", backgroundColor: "#8e44ad", color: "white", border: "none", borderRadius: "5px", cursor: "pointer" };
 
-export default HeroSection;
+export default Hero;

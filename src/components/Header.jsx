@@ -18,9 +18,9 @@ function Header() {
       </button>
       <nav className={`nav-links  ${isMenuOpen ? "open" : ""}`}>
         <a href="#home" className="nav" onClick={toggleMenu}>Home</a>
-        <a href="#popular-breeds" className="nav" onClick={toggleMenu}>Acadamics</a>
-        <a href="#gallery" className="nav" onClick={toggleMenu}>Gallery</a>
-        <a href="#why-choose-us" className="nav" onClick={toggleMenu}>About Us</a>
+        <a href="#Academics" className="nav" onClick={toggleMenu}>Acadamics</a>
+        <a href="#Gallery" className="nav" onClick={toggleMenu}>Gallery</a>
+        <a href="#About" className="nav" onClick={toggleMenu}>About us</a>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScf6actMecVBa2hly2ztjmOHBaH9VzQ0Ee4c2-11ayaCgCoog/viewform?usp=sharing" target="new" className="nav" onClick={toggleMenu}>Contact us</a>
       </nav>
     </header>

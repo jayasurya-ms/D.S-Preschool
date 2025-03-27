@@ -5,11 +5,18 @@
     height: 300px;
     width: 100%;
 }
-
+#carouselExampleIndicators{
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+}
 /* responsive */
 @media (max-width: 500px) {
     .heroimg{
         border-radius: 20px;
         height: 200px;
+    }
+    #carouselExampleIndicators{
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 50px;
     }
 }
