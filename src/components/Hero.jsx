@@ -55,10 +55,10 @@ function Hero() {
           boxShadow: "0 4px 15px rgba(0, 0, 0, 0.4)",
         }}
       >
-        <h2 className="mb-4 text-primary fw-bold">
+        <h1 className="mb-4 text-primary fw-bold">
           Welcome to <br />
           <span className="text-dark">D.S Preschool</span>
-        </h2>
+        </h1>
         <p className="text-secondary mb-4" style={{ fontSize: "1.2rem" }}>
           Join our loving community .
         </p>

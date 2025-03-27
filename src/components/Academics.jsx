@@ -49,7 +49,7 @@ function Academics() {
       id="popular-breeds"
       style={{ textAlign: "center", padding: "40px", backgroundColor: "#f3e5f5" }}
     >
-      <h2 >Academics</h2>
+      <h1 >Academics</h1>
       <Slider {...settings} className="div-a">
         {academics.map((academic) => (
           <div key={academic.id} className="div-ai">

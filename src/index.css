@@ -1,5 +1,7 @@
 /* hero section */
-
+h1{
+    font-family: Grandstander;
+}
 .heroimg{
     border-radius: 50px;
     height: 300px;

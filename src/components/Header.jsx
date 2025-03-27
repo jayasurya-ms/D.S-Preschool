@@ -11,7 +11,7 @@ function Header() {
   return (
     <header className="header container-fluid " id="header">
       <div id="logocant">
-        <a href="#home"><img id="logoimg" src="src\assets\logo02.png" alt="logo" /></a>
+        <a href="#home"><img id="logoimg" src="src\assets\logo.jpg" alt="logo" /></a>
       </div>
       <button className="menu-toggle" onClick={toggleMenu}>
         ☰
