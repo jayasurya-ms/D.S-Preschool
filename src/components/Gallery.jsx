@@ -101,10 +101,10 @@ function Gallery() {
       <div className="container mt-3">
         <div className="row row-cols-1 row-cols-md-3 g-4">
           {[
-            "hero3.jpg",
-            "hero1.jpg",
-            "gal2.jpg",
-            "gal4.jpg",
+            "gal7.jpg",
+            "gal6.jpg",
+            "gal1.jpg",
+            "gal8.jpg",
             "gal7.jpg",
             "gal6.jpg",
             "gal1.jpg",
