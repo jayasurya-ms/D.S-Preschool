@@ -3,40 +3,46 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #7b1fa2;
   color: white;
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
   border-radius:0 0px;
 }
-
-#header>nav{
-  font-size: larger;
-}
-
 #logoimg{
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
 }
 
 #logocant{
-  padding-left: 50px;
+  width: 15%;
 }
-
-.nav-links {
+.header-left{
+  width: 85%;
+  height: 120px;
   display: flex;
-  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
+.nav-links{
+  height: 60%;
+  width: 100%;
+  border-radius: 50px;  
+  background-color: #7b1fa2;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .nav-links a {
   color: white;
   text-decoration: none;
-  /* font-size: 1.0rem; */
+  font-size:larger;
+  font-weight: 700;
   transition: color 0.3s;
-  margin-right: 50px;
 }
 
 .nav-links a:hover {
@@ -71,25 +77,38 @@
     background-color: #7b1fa2;
     text-align: center;
     padding: 10px 0;
-   
+    border-radius: 0%;
   }
 
   .nav-links.open {
     display: flex;
-    
-  }
+   }
 
   .nav-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     padding: 10px 0;
     font-size: 1.2rem;
-    
+    background-color: #7b1fa2;
   }
   #logoimg{
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
   }
   #logocant{
+    width: 40%;
     padding-left: 0px;
+  }
+  .header-left{
+    width: 50%;
+    justify-content: end;
+    background-color: #7b1fa2;
+    border-radius: 0;
+   }
+  .nav-cant{
+    background-color: #7b1fa2;
   }
 }
