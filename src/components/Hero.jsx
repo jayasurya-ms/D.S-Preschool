@@ -55,7 +55,7 @@ function Hero() {
             backgroundColor: "#ffffff",
           }}
         >
-          <div className="p-4" style={{ boxShadow: "0 4px 15px rgba(0, 0, 0, 0.4)", borderRadius: "12px", width: "95%" }}>
+          <div className="p-4" style={{ boxShadow: "0 4px 15px rgba(0, 0, 0, 0.4)", borderRadius: "12px", width: "100%" }}>
             <h1 className="mb-4 text-primary fw-bold">
               Welcome to <br />
               <span className="text-dark">D.S Preschool</span>

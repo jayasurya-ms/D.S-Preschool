@@ -4,7 +4,7 @@
 }
 /* spacer */
 .spacer{
-    height: 120px;
+    height: 100px;
 }
     /* hero section */
 h1{
@@ -21,6 +21,9 @@ h1{
 }
 /* responsive */
 @media (max-width: 500px) {
+    .spacer{
+        height: 95px;
+    }
     .heroimg{
         border-radius: 20px;
         height: 200px;

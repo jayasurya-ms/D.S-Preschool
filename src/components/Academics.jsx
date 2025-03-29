@@ -44,13 +44,13 @@ function Academics() {
 
 
   return (
-    <section
+    <section 
       id="Academics"
-      style={{ textAlign: "center", padding: "5px", backgroundColor: "#f3e5f5" }}
+      style={{ textAlign: "center", padding: "0 50px", backgroundColor: "#f3e5f5" }}
     >
       <div className=" spacer w-100 "></div>
       <div className="p-0">
-        <img src="src/assets/acalogo.png" className="w-25 " alt="academic" />
+        <img src="src/assets/acalogo.png" className="title" alt="academic" />
       </div>
 
       <div className=" p-0 m-0 w-100 h-100">
@@ -59,7 +59,7 @@ function Academics() {
           {academics.map((academic) => (
             <div key={academic.id} className="div-ai">
               <div className="card">
-                <img
+                <img loading="lazy"
                   src={academic.image}
                   alt={academic.name}
                   style={imageStyle}
