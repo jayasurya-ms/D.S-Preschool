@@ -1,1 +1,48 @@
 /* do ur css here  */
+.accordion-button {
+
+    background: rgb(135, 50, 190);
+    background: radial-gradient(circle, rgb(179, 90, 104) 30%, rgba(188, 59, 145, 0.913) 100%);
+
+    color: white;
+    height: 70px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 30px;
+
+}
+
+.accordion-body {
+    background-color: #e4d7ed;
+    height: 100px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.accordion-item {
+    margin-bottom: 40px;
+    border-radius: 30px;
+}
+
+@media (max-width: 500px) {
+    .accordion-button {
+        height: 80px;
+        font-weight: light;
+        font-size: medium;
+        padding: 15px;
+
+    }
+
+    .accordion-body {
+        height: 150px;
+        font-weight: bold;
+        border-radius: 30px;
+    }
+
+    .faq-img {
+        height: 150px;
+        width: 350px;
+        border-radius: 20px;
+
+    }
+}
