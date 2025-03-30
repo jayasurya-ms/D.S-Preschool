@@ -1,4 +1,4 @@
-import './Gallery.css'
+import '../style/Gallery.css'
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 

@@ -1,40 +1,50 @@
 import React from "react";
+import '../style/Footer.css'
 
 function Footer() {
-  return(
-    <footer className="container-fluid p-3" style={{backgroundColor:"#7b1fa2", color:"white"}}>
-      <div className="row">
-        <div className="col-sm-12 col-md-5 d-flex flex-column justify-content-center p-5">
-          <h3>D.S Preschool<sup>®</sup> </h3>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1801.8470745044322!2d77.59916163869747!3d12.941449430944958!3m2!1i1024!2i768!4f" loading="lazy" title="Bangalore" height={"200px"}></iframe>
+  return (
+    <footer className="d-flex flex-column justify-content-end w-100">
+      <div className="w-100 d-flex align-items-end footer-design">
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+      </div>
+      <div className="row m-0">
+        <div className="col-sm-12 col-md-4 d-flex flex-column justify-content-center align-items-center footer p-4">
+          <h3>D.S Preschool and Daycare<sup>®</sup> </h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.93101695287!2d77.60141817484035!3d12.91215518739778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15033bf4a257%3A0xfe40fbe6cbfd721a!2sD.S%20PRESCHOOL%20AND%20DAYCARE%20B.T.M%20Layout%20Bangalore.560076!5e0!3m2!1sen!2sin!4v1743241243056!5m2!1sen!2sin" loading="lazy" title="D.S Preschool" height={"80%"} width={"90%"}></iframe>
         </div>
-        <div className="col-sm-12 col-md-3 d-flex flex-column justify-content-center ps-5">
+        <div className="col-sm-12 col-md-4 d-flex flex-column justify-content-center align-items-center footer m-0 ">
           <h4>Quick Links</h4>
-          <p className="d-flex flex-column gap-1" style={{listStyleType:"none"}}>
-            <a style={{textDecoration:'none'}} className="text-white" href="#home">Home</a>
-            <a style={{textDecoration:'none'}} className="text-white" href="#popular-breeds">Academics</a>
-            <a style={{textDecoration:'none'}} className="text-white" href="#gallery">Gallery</a>
-            <a style={{textDecoration:'none'}} className="text-white" href="#why-choose-us">About Us</a>
-            <a style={{textDecoration:'none'}} className="text-white" href="https://docs.google.com/forms/d/e/1FAIpQLScf6actMecVBa2hly2ztjmOHBaH9VzQ0Ee4c2-11ayaCgCoog/viewform?usp=sharing" target="new">Contact</a>
-          </p>
-        </div>
-        <div className="col-sm-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
-        <div>
-          <h3>Contact Us</h3>
-          <a href="mailto:punithbunygowda8494@gmail.com" className="text-white text-decoration-none">Email:gowda8494@gmail.com</a><br />
-          <p>Phone: +91 98765 43210</p>
-          <p>Address: Lakkasandra Bangalore, India</p>
-          <div style={{ marginTop: "10px" }} className="d-flex gap-3">
-            <a href="https://www.facebook.com/share/15uwiiVMoo/" target="new"><i className="fab fa-facebook-f fs-2 text-white"></i></a>
-            <a href="#" target="new"><i className="fab fa-twitter fs-2 text-white"></i></a>
-            <a href="https://www.instagram.com/xx__darker__xx?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="new"><i className="fab fa-instagram fs-2 text-white"></i></a>
+          <div className="d-flex gap-5 m-2">
+            <div>
+              <p className="d-flex flex-column gap-2 quick-link" style={{ listStyleType: "none" }}>
+                <a href="#home">Home</a>
+                <a href="#popular-breeds">Academics</a>
+                <a href="#gallery">Gallery</a>
+              </p>
+            </div>
+            <div>
+              <p className="d-flex flex-column gap-2 quick-link" style={{ listStyleType: "none" }}>
+                <a href="#why-choose-us">About Us</a>
+                <a href="#Faq">FAQ's</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScf6actMecVBa2hly2ztjmOHBaH9VzQ0Ee4c2-11ayaCgCoog/viewform?usp=sharing" target="new">Contact</a>
+              </p>
+            </div>
           </div>
         </div>
+        <div className="col-sm-12 col-md-4 d-flex flex-column justify-content-center align-items-center footer m-0">
+          <div>
+            <h3>Contact Us Through</h3>
+            <p><a href="mailto:punithbunygowda8494@gmail.com" className="text-white text-decoration-none"><b>Email:</b> gowda8494@gmail.com</a></p>
+            <p><b>Phone:</b> +91 98765 43210</p>
+            <p><b>Address:</b> Lakkasandra Bangalore, India</p>
+
+          </div>
         </div>
       </div>
       <div className="row m-0">
-        <div className="col-sm-12 col-md-12 d-flex justify-content-center m-1 pt-4">
-          <p className="m-0">Copyright &copy; {new Date().getFullYear()} All rights reserved </p>
+        <div className="col-sm-12 col-md-12 d-flex justify-content-center footer pt-4 pb-4">
+          <p className="m-0">Copyright &copy; {new Date().getFullYear()} reserved | <a className="mylink" href="https://wa.me/+919916446595?text=Hii,%20Can%20i%20get%20more%20info%20about%20Development"> Developed by Jayasurya M</a></p>
         </div>
       </div>
     </footer>
