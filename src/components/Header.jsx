@@ -20,7 +20,7 @@ function Header() {
           </button>
           <nav className={`nav-links  ${isMenuOpen ? "open" : ""}`}>
             <a href="#home" className="nav" onClick={toggleMenu}>Home</a>
-            <a href="#Academics" className="nav" onClick={toggleMenu}>Acadamic</a>
+            <a href="#Academics" className="nav" onClick={toggleMenu}>Academic</a>
             <a href="#Gallery" className="nav" onClick={toggleMenu}>Gallery</a>
             <a href="#About" className="nav" onClick={toggleMenu}>About us</a>
             <a href="#Faq" className="nav" onClick={toggleMenu}>FAQ's</a>
