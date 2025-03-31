@@ -1,0 +1,26 @@
+.Title{
+    width: 35%;
+}
+.about-head{
+    background-color: pink;
+    width: fit-content;
+    border-radius:8px ;
+}
+.about-heading{
+    display: block;
+}
+p{
+    font-size: x-large;
+}
+/* responsive */
+@media (max-width: 425px){
+    .Title{
+        width: 80%;
+    }
+    .about-heading{
+        display: none;
+    }
+    p{
+        font-size: large;
+    }
+}
