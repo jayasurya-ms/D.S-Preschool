@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Academics from './components/Academics';
 import Gallery from './components/Gallery';
 import About from './components/About';
-import Faq from './components/FAQ';
+import Faq from './components/Faq';
 
 function App() {
   return (

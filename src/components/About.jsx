@@ -3,7 +3,7 @@ import "../style/About.css";
 
 function About() {
   return (
-    <section id="About" className="contactsection" style={{ backgroundColor: "#f3e5f5" }}>
+    <section id="About" style={{ backgroundColor: "#f3e5f5" }}>
       <div className="spacer w-100"></div>
       <div className="p-4">
         <div className="w-100 d-flex justify-content-center p-3">
@@ -11,7 +11,7 @@ function About() {
         </div>
         <div className="row m-0">
           <div className="col-md-4 p-3 d-flex justify-content-center align-items-center">
-            <img src="" alt="about img" className="rounded-circle " />
+            <img src="src\assets\logo.jpg" alt="about img" className="rounded-circle about-img shadow-lg" />
           </div>
           <div className="col-md-8 p-3 shadow-lg rounded-3">
             <h1 className="p-2 about-head">Why Choose Us? </h1>
@@ -24,7 +24,7 @@ function About() {
               href="https://docs.google.com/forms/d/e/1FAIpQLScf6actMecVBa2hly2ztjmOHBaH9VzQ0Ee4c2-11ayaCgCoog/viewform?usp=sharing"
               className="btn btn-lg px-4 shadow-sm"
             >
-              Reach us
+              Contact us
             </a>
           </div>
         </div>

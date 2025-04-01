@@ -12,7 +12,7 @@
     width: 6.7%;
 }
 .footer-design > div:nth-child(odd){
-    height: 90px;
+    height: 85px;
     width: 6.7%;
 }
 .quick-link > a{
@@ -25,15 +25,41 @@
     color: rgb(51, 49, 49);
     text-decoration: underline;
 }
+.contact > p{
+    font-size: large;
+}
 .mylink{
     text-decoration: solid;
     color: white;
+    font-size: medium;
+}
+.footer > p{
+    display: flex;
+    justify-content: end;
+    padding: 0;
+}
+.footer > a{
+    display: flex;
+    justify-content: start;
+    padding: 1;
 }
 @media (max-width: 500px) {
     .footer-design > div:nth-child(odd){
-        height: 35px;
+        height: 32px;
     }
     .footer-design > div:nth-child(even){
         height: 30px;
+    }
+    .footer > p,.footer > a{
+        justify-content: center;
+    }
+    .contact{
+        margin: 0 50px;
+    }
+    .contact > p,.contact > h3{
+        font-size: medium;
+    }
+    .contact > h3{
+        font-weight: 900;
     }
 }

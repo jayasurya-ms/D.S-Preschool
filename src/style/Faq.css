@@ -1,48 +1,36 @@
-/* do ur css here  */
-.accordion-button {
-
-    background: rgb(135, 50, 190);
-    background: radial-gradient(circle, rgb(179, 90, 104) 30%, rgba(188, 59, 145, 0.913) 100%);
-
-    color: white;
-    height: 70px;
-    font-weight: bold;
-    font-size: large;
-    border-radius: 30px;
-
+.faq-img{
+    width: 25%;
 }
-
+.accordion{
+    width: 60%;
+}
+.accordion-button{
+    background: #cfe9f5;
+    color: blue;
+    font-weight: bolder;
+    font-size: large;
+}
+.accordion-item{
+    color:#7b1fa2 ;
+}
 .accordion-body {
     background-color: #e4d7ed;
-    height: 100px;
-    font-weight: bold;
-    border-radius: 30px;
-}
-
-.accordion-item {
-    margin-bottom: 40px;
-    border-radius: 30px;
+    font-weight:600;
 }
 
 @media (max-width: 500px) {
-    .accordion-button {
-        height: 80px;
-        font-weight: light;
-        font-size: medium;
-        padding: 15px;
-
+    .faq-img{
+        width: 60%;
     }
-
+    .accordion{
+        width: 90%;
+    }
+    .accordion-button{
+        font-weight: bolder;
+        font-size: small;
+    }
     .accordion-body {
-        height: 150px;
-        font-weight: bold;
-        border-radius: 30px;
-    }
-
-    .faq-img {
-        height: 150px;
-        width: 350px;
-        border-radius: 20px;
-
+        font-size: smaller;
+        font-weight:600;
     }
 }

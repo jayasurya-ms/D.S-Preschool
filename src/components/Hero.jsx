@@ -58,7 +58,7 @@ function Hero() {
           <div className="p-4" style={{ boxShadow: "0 4px 15px rgba(0, 0, 0, 0.4)", borderRadius: "12px", width: "100%" }}>
             <h1 className="mb-4 text-primary fw-bold">
               Welcome to <br />
-              <span className="text-dark">D.S Preschool</span>
+              <span className="text-dark">D.S Preschool and Daycare</span>
             </h1>
             <p className="text-secondary mb-4 text-dark" style={{ fontSize: "1.2rem" }}>
               D.S Educational Trust Preschool and Daycare provides a foundation for learning both socially and academically

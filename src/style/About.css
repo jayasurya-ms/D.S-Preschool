@@ -12,15 +12,21 @@
 p{
     font-size: x-large;
 }
+.about-img{
+    height: 400px;
+}
 /* responsive */
 @media (max-width: 425px){
     .Title{
-        width: 80%;
+        width: 100%;
     }
     .about-heading{
         display: none;
     }
     p{
         font-size: large;
+    }
+    .about-img{
+        height: 200px;
     }
 }
