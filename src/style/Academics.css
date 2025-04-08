@@ -1,51 +1,58 @@
 .slick-prev:before,
 .slick-next:before {
-  color: #7b1fa2; /* Custom arrow color */
-  
+  color: #7b1fa2;
+  /* Custom arrow color */
+
 }
 
 .slick-dots li button:before {
-  color: #7b1fa2; /* Custom dot color */
-  
+  color: #7b1fa2;
+  /* Custom dot color */
+
 }
 
 .slick-dots li.slick-active button:before {
-  color: #ffcc80; /* Active dot color */
-  
+  color: #ffcc80;
+  /* Active dot color */
+
 }
 
-.btn{
-    background: linear-gradient(130deg, #d1cad1, #dcdadc, #b40c90, #4d11c5);
-    background-size: 400%;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    outline: none;
-    transition: transform 0.2s ease-in-out;
+.btn {
+  background: linear-gradient(130deg, #d1cad1, #dcdadc, #b40c90, #4d11c5);
+  background-size: 400%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.2s ease-in-out;
 }
 
-.btnp{
+.btnp {
   width: 60%;
 }
 
-.title{
+.title {
   width: 30%;
 }
-.btn:hover{
-    animation: gradient-flow 1s linear infinite;
-    transform: scale(1.05);
- /* background-size: auto; */
+
+.btn:hover {
+  animation: gradient-flow 1s linear infinite;
+  transform: scale(1.05);
+  /* background-size: auto; */
 }
-.div-a{
+
+.div-a {
   padding: 20px 0;
 }
-.div-ai{
+
+.div-ai {
   padding: 20px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.card{
+
+.card {
   width: 80%;
   height: 380px;
   border: 1px solid #ddd;
@@ -56,38 +63,92 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  transition: transform 0.2s ease-in-out; /* Smooth animation */
+  transition: transform 0.2s ease-in-out;
+  /* Smooth animation */
   align-items: center;
 }
-@keyframes gradient-flow{
-      0%{
-        background-position: 0%;
-        color: white;
-      }
-      100%{
-        background-position: 100%;
-        color: white;
-      }
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0%;
+    color: white;
+  }
+
+  100% {
+    background-position: 100%;
+    color: white;
+  }
 }
 
-@media (max-width: 425px){
-  .card{
+@media (max-width: 425px) {
+  .card {
     width: 100%;
     margin: 0%;
   }
-  .div-a{
+
+  .div-a {
     width: 100%;
   }
-  .div-ai{
+
+  .div-ai {
     width: 100%;
   }
-  .title{
+
+  .title {
     width: 80%;
   }
-}
- 
-  .card:hover {
-    transform: scale(1.1); /* Zoom in the card */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  .daycare{
+    width: 100%;
   }
-  
+  .daycare-text{
+    font-size: xx-small;
+  }
+}
+
+.card:hover {
+  transform: scale(1.1);
+  /* Zoom in the card */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.daycare{
+  width: 95%;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.daycare-section {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.daycare-heading {
+  color: #7b1fa2;
+  font-weight: 600;
+}
+.daycare-text{
+  font-size:large;
+}
+
+.daycare-list {
+  padding-left: 0;
+}
+
+.daycare-list li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.daycare-list li::before {
+  content: '🌸';
+  margin-right: 10px;
+}
+
+.scalloped-image {
+  border: 6px solid #f15b6c;
+  padding: 10px;
+  border-radius: 50% 50% / 10% 10%;
+  background-color: #fff;
+  max-width: 100%;
+}

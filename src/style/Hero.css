@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sky{
+    background: linear-gradient(to top, #73c1e4 0%, #73c1e4 100%);
+
+}
+.scene {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(to top, #8ad0eb 0%, #73c1e4 100%);
+    overflow: hidden;
+}
+
+/* Sun */
+.sun {
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle, #f1cc36, #f5c962);
+    border-radius: 50%;
+    box-shadow: 0 0 30px #fcd34d;
+    animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Clouds */
+.cloud {
+    position: absolute;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow:
+        60px 0 #fff,
+        30px -20px #fff,
+        90px -10px #fff,
+        60px -30px #fff;
+    width: 100px;
+    height: 60px;
+    opacity: 0.9;
+    animation: float 8s ease-in-out infinite;
+}
+
+.cloud1 {
+    top: 50px;
+    left: 180px;
+    animation-delay: 0s;
+}
+
+.cloud2 {
+    top: 80px;
+    left: 10px;
+    animation-delay: 2s;
+}
+
+.cloud3 {
+    top: 10px;
+    right: 280px;
+    animation-delay: 4s;
+}
+
+.cloud4 {
+    top: 50px;
+    right: 50px;
+    animation-delay: 3s;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+}
+
+/* Hill / Mountain */
+.hill {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: radial-gradient(circle at center, #4CAF50 0%, #3dae42 100%);
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+}
+
+@media (max-width: 425px){
+    .scene {
+        height: 100%;
+    }
+    .hill {
+        height: 40px;
+    }
+    .cloud4,.cloud3 {
+        display: none;
+    }
+}
