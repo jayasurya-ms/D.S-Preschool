@@ -1,0 +1,76 @@
+.social > div {
+    position: fixed;
+    left: 0;
+    z-index: 10;
+    width: 60px;
+    height: 60px;
+    background-color: #7b1fa2;
+    border-radius: 0 50px 50px 0;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: width 0.5s ease;
+    overflow: hidden;
+}
+
+.social > div:hover {
+    width: 150px;
+}
+
+/* Icon styles */
+.social i {
+    font-size: 30px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+/* Link container */
+.social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+}
+
+/* Paragraph (text) styling */
+.social p {
+    margin: 0 0 0 10px;
+    opacity: 0;
+    color: white;
+    visibility: hidden;
+    transform: translateX(-10px);
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    font-size: 18px;
+    padding-right: 25px;
+}
+
+/* Show text on hover */
+.social > div:hover p {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+/* Positioning of each social div */
+.whatsapp {
+    bottom: 23%;
+}
+.insta {
+    bottom: 14%;
+}
+.facebook {
+    bottom: 5%;
+}
+
+@media (max-width: 500px) {
+    .social i {
+        font-size: 24px;
+    }
+    .social > div {
+        width: 50px;
+        height: 50px;
+    }
+}

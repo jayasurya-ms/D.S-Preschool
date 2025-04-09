@@ -6,11 +6,11 @@ function About() {
     <section id="About" style={{ backgroundColor: "#f3e5f5" }}>
       <div className="spacer w-100"></div>
       <div className="p-4">
-        <div className="w-100 d-flex justify-content-center p-3">
-          <img src="src\Assets\aboutus.png" alt="Why Choose Us" className="Title" />
+        <div className="w-100 d-flex justify-content-center p-3 ">
+          <img src="src\Assets\aboutus.png" alt="Why Choose Us" className="Title"/>
         </div>
         <div className="row m-0">
-          <div className="col-md-4 p-3 d-flex justify-content-center align-items-center">
+        <div className="col-md-4 p-3 d-flex justify-content-center align-items-center">
             <img src="src\assets\logo.jpg" alt="about img" className="rounded-circle about-img shadow-lg" />
           </div>
           <div className="col-md-8 p-3 shadow-lg rounded-3">

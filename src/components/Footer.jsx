@@ -4,10 +4,20 @@ import '../style/Footer.css'
 function Footer() {
   return (
     <footer className="d-flex flex-column justify-content-end w-100">
-      <div className="w-100 d-flex align-items-end footer-design">
-        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-        <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+      <div className="footer-wave-top">
+        <svg viewBox="0 0 1440 150" xmlns="http://www.w3.org/2000/svg">
+          <path
+            fill="#7b1fa2"
+            d="M0,80 C360,0 1080,160 1440,80 L1440,0 L0,0 Z"
+          />
+          <path
+            fill="#7b1fa2"
+            fillOpacity="0.9"
+            d="M0,100 C360,20 1080,180 1440,100 L1440,0 L0,0 Z"
+          />
+        </svg>
       </div>
+
       <div className="row m-0">
         <div className="col-sm-12 col-md-4 d-flex flex-column justify-content-center align-items-center footer p-4">
           <h3>D.S Preschool and Daycare<sup>®</sup> </h3>

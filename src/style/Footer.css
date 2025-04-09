@@ -1,65 +1,66 @@
-.footer-design > div,.footer{
+.footer-design>div,
+.footer {
     background-color: #7b1fa2;
     color: white;
     margin: 0%;
     padding: 0%;
 }
-.footer-design > div{
-    border-radius:50px 50px 0 0;
-}
-.footer-design > div:nth-child(even){
-    height: 80px;
-    width: 6.7%;
-}
-.footer-design > div:nth-child(odd){
-    height: 85px;
-    width: 6.7%;
-}
-.quick-link > a{
+
+.quick-link>a {
     text-decoration: none;
     color: white;
     font-size: large;
     font-weight: 500;
 }
-.quick-link > a:hover{
+
+.quick-link>a:hover {
     color: rgb(51, 49, 49);
     text-decoration: underline;
 }
-.contact > p{
+
+.contact>p {
     font-size: large;
 }
-.mylink{
+
+.mylink {
     text-decoration: solid;
     color: white;
     font-size: medium;
 }
-.footer > p{
+
+.footer>p {
     display: flex;
     justify-content: end;
     padding: 0;
 }
-.footer > a{
+
+.footer>a {
     display: flex;
     justify-content: start;
     padding: 1;
 }
+
+.footer-wave-top {
+    transform: rotate(180deg);
+}
+
 @media (max-width: 500px) {
-    .footer-design > div:nth-child(odd){
-        height: 32px;
-    }
-    .footer-design > div:nth-child(even){
-        height: 30px;
-    }
-    .footer > p,.footer > a{
+
+    .footer>p,
+    .footer>a {
         justify-content: center;
     }
-    .contact{
+
+    .contact {
         margin: 0 50px;
     }
-    .contact > p,.contact > h3{
+
+    .contact>p,
+    .contact>h3 {
         font-size: medium;
     }
-    .contact > h3{
+
+    .contact>h3 {
         font-weight: 900;
     }
 }

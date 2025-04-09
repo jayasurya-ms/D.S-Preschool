@@ -6,12 +6,14 @@ import Academics from './components/Academics';
 import Gallery from './components/Gallery';
 import About from './components/About';
 import Faq from './components/Faq';
+import Social from './components/Social';
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
+      <Social />
       <Academics />
       <Gallery />
       <About />

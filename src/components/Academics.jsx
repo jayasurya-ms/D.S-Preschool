@@ -74,7 +74,6 @@ function Academics() {
       <div className="h-100 w-100 p-0 pb-5 m-0 mt-5 d-flex justify-content-center">
         <div class="daycare">
           <div class="daycare-section d-flex flex-column flex-lg-row align-items-center justify-content-between shadow-sm">
-
             <div class="col-lg-7">
               <h1 class="daycare-heading mb-3">Daycare Facility</h1>
               <p className="daycare-text">
@@ -83,20 +82,14 @@ function Academics() {
               </p>
               <ul class="daycare-list mt-3">
                 <li>Trained and competent staff</li>
-                <li>Open door policy for parents</li>
-                <li>Headed by a visionary leadership team</li>
                 <li>Our 12-month academic year allows for admissions into the daycare at any point during the year.</li>
               </ul>
             </div>
-
             <div class="col-lg-4 mt-4 mt-lg-0 text-center">
               <img src="https://via.placeholder.com/350x250" alt="Daycare Room" class="scalloped-image img-fluid"/>
             </div>
           </div>
         </div>
-
-
-
       </div>
     </section>
   );
