@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/Faq.css";
-import logo from 'src\assets\faq.png';
+import logo from '../assets/faq.png';
 
 const Faq = () => {
   const faqs = [
