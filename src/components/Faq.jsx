@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/Faq.css";
+import logo from 'src\assets\faq.png';
 
 const Faq = () => {
   const faqs = [
@@ -16,7 +17,7 @@ const Faq = () => {
     <section id="Faq" className="w-100 h-100 d-flex flex-column align-items-center">
       <div className="spacer w-100 "></div>
       <div className="w-100 h-50 d-flex align-items-center justify-content-center ">
-        <img src="src\assets\faq.png" className="faq-img" alt="" />
+        <img src={logo} className="faq-img" alt="" />
       </div>
       <div className="accordion d-flex gap-3 flex-column" id="accordionExample">
         {faqs.map((faq) => (
