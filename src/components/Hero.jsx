@@ -2,18 +2,26 @@ import React from 'react'
 import { motion } from "framer-motion";
 import '../style/Hero.css'
 
+// Import images from the 'src/assets' folder
+import hero2 from '../assets/hero2.png';
+import hero6 from '../assets/hero6.png';
+import hero3 from '../assets/hero3.png';
+import hero5 from '../assets/hero5.png';
+import hero7 from '../assets/hero7.png';
+import hero4 from '../assets/hero4.png';
+
 function Anim() {
     return (
         <div id="home">
             <div className="spacer w-100 sky"></div>
-            <div class="scene">
+            <div className="scene">
                 <section className="container-fluid p-0 mt-5">
                     <div className="h-100 w-100 p-0 m-0 row">
                         <div className="col-md-5 col-sm-12 p-5 d-flex justify-content-center align-item-center">
                             <motion.div animate={{ y: [-10, 20, -10] }} transition={{ duration: 4, repeat: Infinity }} className="h-100 w-100 mt-5">
                                 <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                                     <div className="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
@@ -22,22 +30,22 @@ function Anim() {
                                     </div>
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
-                                            <img src="src\assets\hero2.png " className="d-block w-100 heroimg" alt="..." />
+                                            <img src={hero2} className="d-block w-100 heroimg" alt="..." />
                                         </div>
                                         <div className="carousel-item">
-                                            <img src="src\assets\hero6.png" className="d-block w-100 heroimg" alt="..." />
+                                            <img src={hero6} className="d-block w-100 heroimg" alt="..." />
                                         </div>
                                         <div className="carousel-item">
-                                            <img src="src\assets\hero3.png " className="d-block w-100 heroimg" alt="..." />
+                                            <img src={hero3} className="d-block w-100 heroimg" alt="..." />
                                         </div>
                                         <div className="carousel-item">
-                                            <img src="src\assets\hero5.png " className="d-block w-100 heroimg" alt="..." />
+                                            <img src={hero5} className="d-block w-100 heroimg" alt="..." />
                                         </div>
                                         <div className="carousel-item">
-                                            <img src="src\assets\hero7.png " className="d-block w-100 heroimg" alt="..." />
+                                            <img src={hero7} className="d-block w-100 heroimg" alt="..." />
                                         </div>
                                         <div className="carousel-item">
-                                            <img src="src\assets\hero4.png " className="d-block w-100 heroimg" alt="..." />
+                                            <img src={hero4} className="d-block w-100 heroimg" alt="..." />
                                         </div>
                                     </div>
                                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -52,13 +60,13 @@ function Anim() {
                             </motion.div>
                         </div>
                         <div className="col-lg-7 col-md-6 col-sm-12 text-lg-start text-center p-4">
-                            <div className="p-4" style={{ boxShadow: "0 4px 15px rgba(0, 0, 0, 0.4)", borderRadius: "12px", width: "100%",backgroundColor:"white" }}>
+                            <div className="p-4" style={{ boxShadow: "0 4px 15px rgba(0, 0, 0, 0.4)", borderRadius: "12px", width: "100%", backgroundColor: "white" }}>
                                 <h1 className="mb-4 text-primary fw-bold">
                                     Welcome to <br />
                                     <span className="text-dark">D.S Preschool and Daycare</span>
                                 </h1>
                                 <p className="text-secondary mb-4 text-dark" style={{ fontSize: "1.2rem" }}>
-                                    D.S Educational Trust Preschool and Daycare provides a foundation for learning both socially and academically
+                                    D.S Educational Trust Preschool and Daycare provides a foundation for learning both socially and academically
                                 </p>
                                 <ul
                                     className="list-unstyled text-secondary text-dark"
@@ -83,16 +91,16 @@ function Anim() {
                         </div>
                     </div>
                 </section>
-                <div class="sky"></div>
-                <div class="sun"></div>
-                <div class="cloud cloud1"></div>
-                <div class="cloud cloud2"></div>
-                <div class="cloud cloud3"></div>
-                <div class="cloud cloud4"></div>
-                <div class="hill"></div>
+                <div className="sky"></div>
+                <div className="sun"></div>
+                <div className="cloud cloud1"></div>
+                <div className="cloud cloud2"></div>
+                <div className="cloud cloud3"></div>
+                <div className="cloud cloud4"></div>
+                <div className="hill"></div>
             </div>
         </div>
     )
 }
 
-export default Anim
+export default Anim;
