@@ -10,7 +10,7 @@ import hero5 from '../assets/hero5.png';
 import hero7 from '../assets/hero7.png';
 import hero4 from '../assets/hero4.png';
 
-function Anim() {
+function Hero() {
     return (
         <div id="home">
             <div className="spacer w-100 sky"></div>
@@ -19,7 +19,7 @@ function Anim() {
                     <div className="h-100 w-100 p-0 m-0 row">
                         <div className="col-md-5 col-sm-12 p-5 d-flex justify-content-center align-item-center">
                             <motion.div animate={{ y: [-10, 20, -10] }} transition={{ duration: 4, repeat: Infinity }} className="h-100 w-100 mt-5">
-                                <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+                                <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
                                     <div className="carousel-indicators">
                                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -103,4 +103,4 @@ function Anim() {
     )
 }
 
-export default Anim;
+export default Hero;

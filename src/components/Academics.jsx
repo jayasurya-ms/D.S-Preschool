@@ -13,10 +13,10 @@ import academics6 from "../assets/academics6.avif";
 
 function Academics() {
   const academics = [
-    { id: 1, image: academics2, name: "Play group", description: "Discovery and exploration, language development, new-age skills, and shaping scientific mindset." },
-    { id: 2, image: academics1, name: "Nursery", description: "Enhancing interaction, cultivating creativity and improving imagination through art and music." },
-    { id: 3, image: academics3, name: "LKG", description: "Age-appropriate learning and educational tools suited for individual pace." },
-    { id: 4, image: academics6, name: "UKG", description: "Developing vocabulary, attention span, reading and writing skills with innovative methods and preparing for primary school." }
+    { id: 1, image: academics2, name: "Play group", description: "A fun, nurturing space where children begin their social and emotional journey through music, movement, sensory play, and exploration - building early communication skills and confidence." },
+    { id: 2, image: academics1, name: "Nursery", description: "Fostering curiosity and independence through language development, motor skills, and early concepts like colors, shapes, and numbers - helping children engage with the world around them." },
+    { id: 3, image: academics3, name: "LKG", description: "Foundational literacy and numeracy are taught through storytelling, hands-on activities, and group interaction - building basic reading, writing, and math skills creatively." },
+    { id: 4, image: academics6, name: "UKG", description: "Prepares children for formal schooling with a focus on reading, writing, problem-solving, and social readiness - promoting critical thinking, discipline, and self-expression." }
   ];
 
   const settings = {
@@ -115,12 +115,9 @@ const titleStyle = {
 const descriptionStyle = {
   fontSize: "14px",
   color: "#555",
-  height: "80px",
-  overflow: "hidden",
+  height: "140px",
   textOverflow: "ellipsis",
   display: "-webkit-box",
-  WebkitLineClamp: 3,
-  WebkitBoxOrient: "vertical",
 };
 
 export default Academics;

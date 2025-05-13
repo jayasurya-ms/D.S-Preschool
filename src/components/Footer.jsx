@@ -45,9 +45,11 @@ function Footer() {
         <div className="col-sm-12 col-md-4 d-flex flex-column justify-content-center align-items-center footer m-0">
           <div className="contact">
             <h3>Contact Us Through</h3>
-            <p><a href="mailto:punithbunygowda8494@gmail.com" className="text-white text-decoration-none"><b>Email:</b> gowda8494@gmail.com</a></p>
-            <p><b>Phone:</b> +91 98765 43210</p>
-            <p><b>Address:</b> Lakkasandra Bangalore, India</p>
+            <p><a href="mailto:meenaswath123@gmail.com" className="text-white text-decoration-none"><b>Email:</b> meenaswath123@gmail.com 
+
+</a></p>
+            <p><b>Phone:</b> +91 8884033085</p>
+            <p><b>Address:</b> #590, 1st Main road mico layout, BTM 2nd stage Bangalore - 560076, karnataka </p>
           </div>
         </div>
       </div>
