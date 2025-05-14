@@ -31,7 +31,7 @@ function About() {
               to stay fit. Caretakers, staff, and management put in a lot of effort to build a strong foundation for the kids.
             </p>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScf6actMecVBa2hly2ztjmOHBaH9VzQ0Ee4c2-11ayaCgCoog/viewform?usp=sharing"
+              href="https://forms.gle/2nNudGuLeSpWeQ1Y9" target="new"
               className="btn btn-lg px-4 shadow-sm"
               style={buttonStyle}
             >

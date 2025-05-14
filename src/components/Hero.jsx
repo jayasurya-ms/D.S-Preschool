@@ -81,7 +81,7 @@ function Hero() {
                                 </ul>
                                 <div className="d-flex gap-2 mt-4 justify-content-lg-start justify-content-center">
                                     <a
-                                        href="https://docs.google.com/forms/d/e/1FAIpQLScf6actMecVBa2hly2ztjmOHBaH9VzQ0Ee4c2-11ayaCgCoog/viewform?usp=sharing"
+                                        href="https://forms.gle/2nNudGuLeSpWeQ1Y9" target="new"
                                         className="btn btn-lg px-4 shadow-sm"
                                     >
                                         Reach us
