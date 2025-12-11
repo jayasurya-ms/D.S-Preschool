@@ -12,7 +12,7 @@ function Header() {
   return (
     <header className="header container-fluid w-100 p-0 m-0 d-flex flex-column" id="header">
       <div className="d-flex w-100 nav-cant">
-        <div id="logocant" className="d-flex align-items-center justify-content-center mt-1">
+        <div id="logocant" className="d-flex align-items-center justify-content-center">
           <a href="#home">
             <img loading="lazy" id="logoimg" src={logo} alt="logo" />
           </a>
